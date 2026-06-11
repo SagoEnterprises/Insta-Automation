@@ -1,4 +1,4 @@
-```python
+
 from fastapi import FastAPI, Request
 import os
 import re
@@ -354,4 +354,3 @@ async def webhook(request: Request):
     return {
         "status": "ok"
     }
-```
